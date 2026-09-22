@@ -1,0 +1,39 @@
+{
+  "name": "sample_vlog",
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "clips": [
+    {
+      "path": "intro.mp4",
+      "start": 0.0,
+      "end": 5.0,
+      "track": 0,
+      "label": "intro"
+    },
+    {
+      "path": "broll.mp4",
+      "start": 2.0,
+      "end": 8.0,
+      "track": 0,
+      "label": "b-roll"
+    },
+    {
+      "path": "outro.mp4",
+      "start": 0.0,
+      "end": 3.0,
+      "track": 0,
+      "label": "outro"
+    }
+  ],
+  "markers": [
+    { "time": 0.0, "name": "start", "note": "cold open", "color": "green" },
+    { "time": 5.0, "name": "broll", "note": "cut to b-roll", "color": "blue" }
+  ],
+  "expected": {
+    "duration": 14.0,
+    "width": 1280,
+    "height": 720,
+    "clip_count": 3
+  }
+}

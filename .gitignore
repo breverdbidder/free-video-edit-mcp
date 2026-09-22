@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+.venv/
+venv/
+.env
+.Python
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Media workspace (local edits; do not commit large clips)
+video-projects/
+**/render_jobs.json
+**/*.markers.json
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.wav
+*.mp3
+!examples/**
+
+# LUT outputs from local experiments
+*.cube
+!examples/**
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+
+# Secrets
+.env.*
+!.env.example

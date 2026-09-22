@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "free-video-edit": {
+      "command": "python",
+      "args": ["-m", "free_video_edit_mcp"],
+      "env": {
+        "FREE_VIDEO_EDIT_ROOT": "/absolute/path/to/your/video-projects"
+      }
+    }
+  }
+}
